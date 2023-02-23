@@ -524,14 +524,16 @@ footer a{
         padding: 0px 10px 10px 10px;
         column-gap: 10px;
     }
+    nav div ul li{
+        text-align: center;
+    }
     #intro {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 75px 200px 200px;
+        grid-template-columns: 2fr 1fr 1fr;
     }
 
     #img-grid{
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 1/4;
         column-gap: 10px;
     }
